@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 9</title>
+</head>
+<body>
+    <main>
+        <div class="calculator">
+            <input type="text" id="result" placeholder="0">
+            <div class="buttons">
+                <button onclick="app('7')">7</button>
+                <button onclick="app('8')">8</button>
+                <button onclick="app('9')">9</button>
+                <button onclick="app('/')">/</button>
+                <button onclick="clearCalc()">C</button>
+                <button onclick="app('4')">4</button>
+                <button onclick="app('5')">5</button>
+                <button onclick="app('6')">6</button>
+                <button onclick="app('*')">*</button>
+                <button onclick="del()">&lsaquo;-</button>
+                <button onclick="app('1')">1</button>
+                <button onclick="app('2')">2</button>
+                <button onclick="app('3')">3</button>
+                <button onclick="app('-')">-</button>
+                <button style="grid-row: span 2; height: 100%;" onclick="calculate()">=</button>
+                <button style="width: 100%; grid-column: span 2;" onclick="app('0')">0</button>
+                <button onclick="app('.')">.</button>
+                <button onclick="app('+')">+</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+<script src="script.js"></script>

@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    border: 3px solid lightskyblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.calculator input {
+    height: 40px;
+    width: 98%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
